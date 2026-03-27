@@ -1,0 +1,8 @@
+{
+  "class_size": 40,
+  "academic_ratio": 0.65,
+  "tvl_ratio": 0.35,
+  "forecast_years": 3,
+  "confidence_level": 0.95,
+  "sections_per_teacher": 1.5
+}

@@ -1,0 +1,21 @@
+2026-03-23 21:29:20 - __main__ - INFO - Starting forecast generation process
+2026-03-23 21:29:20 - __main__ - INFO - Loaded config: Class Size=40, Academic Ratio=0.65
+2026-03-23 21:29:20 - __main__ - INFO - Loading enrollment dataset
+2026-03-23 21:29:20 - __main__ - INFO - Loaded 10 rows from CSV
+2026-03-23 21:29:20 - __main__ - INFO - Dataset validation passed
+2026-03-23 21:29:20 - __main__ - INFO - Data prepared: 10 valid records
+2026-03-23 21:29:20 - __main__ - INFO - Training Prophet forecasting model
+2026-03-23 21:29:20 - __main__ - INFO - Model training completed successfully
+2026-03-23 21:29:20 - __main__ - INFO - Generating forecast for years: [np.int32(2026), np.int32(2027), np.int32(2028)]
+2026-03-23 21:29:20 - __main__ - INFO - Exporting forecast data to CSV
+2026-03-23 21:29:20 - __main__ - INFO - Forecast CSV exported successfully
+2026-03-23 21:29:20 - __main__ - INFO - Combined historical and forecast data exported
+2026-03-23 21:29:20 - __main__ - INFO - Attempting to generate PDF report
+2026-03-23 21:29:21 - generate_report - INFO - Starting PDF report generation
+2026-03-23 21:29:21 - generate_report - INFO - Loading forecast data from CSV
+2026-03-23 21:29:21 - generate_report - INFO - Loaded 3 rows of forecast data
+2026-03-23 21:29:21 - generate_report - INFO - Creating PDF document: forecast_report.pdf
+2026-03-23 21:29:21 - generate_report - INFO - Building PDF document
+2026-03-23 21:29:21 - generate_report - INFO - PDF report generated successfully: forecast_report.pdf
+2026-03-23 21:29:21 - __main__ - INFO - PDF report generated successfully
+2026-03-23 21:29:21 - __main__ - INFO - Forecast generation process completed successfully

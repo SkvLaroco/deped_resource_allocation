@@ -1,0 +1,32 @@
+2026-03-26 09:25:12 - __main__ - INFO - Starting forecast generation process
+2026-03-26 09:25:12 - __main__ - INFO - Config loaded: class_size=40, academic_ratio=0.65, sections_per_teacher=1.5, forecast_years=3
+2026-03-26 09:25:12 - __main__ - INFO - Per-school CSV detected — running per-school forecasting
+2026-03-26 09:25:12 - __main__ - INFO - Forecasting for 31 schools
+2026-03-26 09:25:21 - __main__ - INFO - Per-school forecast saved: 93 rows across 31 schools
+2026-03-26 09:25:21 - __main__ - INFO - NCR total forecast (aggregated from schools) saved to forecast.csv
+2026-03-26 09:25:21 - __main__ - INFO - NCR_Total_Enrollees.csv derived from per-school data
+2026-03-26 09:25:21 - __main__ - INFO - Accuracy: MAPE=6.98%, Accuracy=93.02%
+2026-03-26 09:25:22 - generate_report - INFO - Starting PDF report generation
+2026-03-26 09:25:22 - generate_report - INFO - Loading forecast data from CSV
+2026-03-26 09:25:22 - generate_report - INFO - Loaded 3 rows of forecast data
+2026-03-26 09:25:22 - generate_report - INFO - Creating PDF document: forecast_report.pdf
+2026-03-26 09:25:22 - generate_report - INFO - Building PDF document
+2026-03-26 09:25:22 - generate_report - INFO - PDF report generated successfully: forecast_report.pdf
+2026-03-26 09:25:22 - __main__ - INFO - PDF report generated
+2026-03-26 09:25:22 - __main__ - INFO - Forecast generation completed successfully
+2026-03-26 22:56:00 - __main__ - INFO - Starting forecast generation process
+2026-03-26 22:56:00 - __main__ - INFO - Config loaded: class_size=40, academic_ratio=0.65, sections_per_teacher=1.5, forecast_years=3
+2026-03-26 22:56:00 - __main__ - INFO - Per-school CSV detected — running per-school forecasting
+2026-03-26 22:56:00 - __main__ - INFO - Forecasting for 31 schools
+2026-03-26 22:56:09 - __main__ - INFO - Per-school forecast saved: 93 rows across 31 schools
+2026-03-26 22:56:09 - __main__ - INFO - NCR total forecast (aggregated from schools) saved to forecast.csv
+2026-03-26 22:56:09 - __main__ - INFO - NCR_Total_Enrollees.csv derived from per-school data
+2026-03-26 22:56:09 - __main__ - INFO - Accuracy: MAPE=6.98%, Accuracy=93.02%
+2026-03-26 22:56:09 - generate_report - INFO - Starting PDF report generation
+2026-03-26 22:56:09 - generate_report - INFO - Loading forecast data from CSV
+2026-03-26 22:56:09 - generate_report - INFO - Loaded 3 rows of forecast data
+2026-03-26 22:56:09 - generate_report - INFO - Creating PDF document: forecast_report.pdf
+2026-03-26 22:56:09 - generate_report - INFO - Building PDF document
+2026-03-26 22:56:09 - generate_report - INFO - PDF report generated successfully: forecast_report.pdf
+2026-03-26 22:56:09 - __main__ - INFO - PDF report generated
+2026-03-26 22:56:09 - __main__ - INFO - Forecast generation completed successfully

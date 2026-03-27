@@ -21,6 +21,10 @@ $current_page = $current_page ?? 'ncr';
            class="nav-link <?php echo $current_page === 'school' ? 'nav-active' : ''; ?>">
             🏫&nbsp; Per-School Forecast
         </a>
+        <a href="methodology.php"
+           class="nav-link <?php echo $current_page === 'methodology' ? 'nav-active' : ''; ?>">
+            📐&nbsp; Methodology
+        </a>
     </nav>
 
     <div class="header-right">

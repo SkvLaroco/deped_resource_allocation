@@ -1207,18 +1207,18 @@ if (isset($_SESSION['user_id'])) {
 
     <!-- Formula reference footer -->
     <div class="formula-footer">
-        <div style="max-width:900px; margin:0 auto;">
-            <h3>Calculation Reference</h3>
-            <div class="formula-grid">
-                <div class="formula-item">Academic Rooms = (Enrollees × 65%) ÷ 40</div>
-                <div class="formula-item">TVL Rooms = (Enrollees × 35%) ÷ 40</div>
-                <div class="formula-item">Academic Teachers = Academic Rooms ÷ 1.5</div>
-                <div class="formula-item">TVL Teachers = TVL Rooms ÷ 1.5</div>
+        <div style="max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+            <div>
+                <h3 style="margin-bottom:6px;">Calculation Reference</h3>
+                <p style="margin:0; font-size:0.80em; color:var(--text-muted);">
+                    Class size: 40 · Academic/TVL: <?php echo isset($app_settings['academic_ratio']) ? round($app_settings['academic_ratio']*100).'%/'.round((1-$app_settings['academic_ratio'])*100).'%' : '65%/35%'; ?> · Sections/teacher: <?php echo isset($app_settings['sections_per_teacher']) ? $app_settings['sections_per_teacher'] : '1.5'; ?> · Prophet 95% CI
+                </p>
             </div>
-            <p class="formula-note">
-                DepEd SHS parameters: Class size 40 · Academic/TVL split 65%/35% ·
-                1 teacher per 1.5 sections (9 sections / 6 teachers) · 95% confidence intervals via Prophet
-            </p>
+            <a href="methodology.php" style="text-decoration:none;">
+                <button type="button" class="btn-secondary" style="font-size:0.82em; padding:8px 18px; white-space:nowrap;">
+                    📐 View Full Methodology &amp; Sources →
+                </button>
+            </a>
         </div>
     </div>
 
